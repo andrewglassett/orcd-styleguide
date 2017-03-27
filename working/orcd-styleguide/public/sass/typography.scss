@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+    color: $links-blue;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a.subnav{
+  color: $green;
+  font-size: 22px;
+  border-bottom: 2px solid $green;
+  padding: 0 0 10px 0;
+
+  &.reg{
+    color: $heading-grey;
+    border-bottom: none;
+    &:hover {
+      color: $green;
+      border-bottom: 2px solid $green;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+
+.nav {
+  height: 61px;
+  position: relative;
+  background: $heading-grey;
+  transition: all 0.15s ease 0s;
+  .logo {
+    position: absolute;
+    top: -8px;
+    float:left;
+    a:hover {
+      background: none;
+
+    }
+  }
+  ul {
+    margin: 0 30px;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    color: white;
+    padding: 20px;
+    display: block;
+    transition: all 0.15s ease 0s;
+    &:hover {
+      background: $heading-grey-secondary;
+      text-decoration: none;
+    }
+  }
+}

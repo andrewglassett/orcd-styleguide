@@ -1,0 +1,56 @@
+/***
+ * Navigation:
+ */
+
+  /**
+   * Main Navigation:
+   * The main navigation with accompanying hover states. The hover state also acts as the active state when clicked.
+   *
+   *     @example
+   *     header#header.header-main
+   *       .container
+   *         .row
+   *           .col-xs-12
+   *             a.logo(href='/')
+   *               img(src='http://workstation.qaorch.com/images/redesign/logo-header.svg')
+   *             nav
+   *               a.active(href='#') Catalog
+   *               a(href='#') Analytics
+   *               a(href='#') Accounting
+   *               a(href='#') Marketplace
+   *             .dropdown.account
+   *               button.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+   *                 | Neal Sugarman
+   *                 img(src='http://workstation.qaorch.com/images/redesign/downarrow-sm.svg')
+   *               ul.dropdown-menu.right-arrow
+   *                 li
+   *                   a(href='#')
+   *                     span.block-icon
+   *                       img(src='http://workstation.qaorch.com/images/redesign/profile.svg')
+   *                     |  Profile
+   *                 li
+   *                   a(href='#')
+   *                     span.block-icon
+   *                       img(src='http://workstation.qaorch.com/images/redesign/admin.svg')
+   *                     |  Admin
+   *                 li
+   *                   a(href='#')
+   *                     span.block-icon
+   *                       img(src='http://workstation.qaorch.com/images/redesign/logout.svg')
+   *                     |  Log out
+   *               a.help(href='#') Help
+
+   */
+   /**
+    * Sub Navigation:
+    * The subnavigation has a triple purpose as a nav, an `h1` element of the page, and also as a breadcrumb.
+    *
+    *     @example
+    *     nav.main-subnav
+    *       a.active(href='#') Releases
+    *       a(href='#') Artists
+    *       a(href='#') Rights
+    */
+.nav {
+  /* ... */
+}

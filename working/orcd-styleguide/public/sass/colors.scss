@@ -1,0 +1,104 @@
+/*Colors*/
+.color {
+  color: $black;
+  margin: 0 5px 10px 0;
+  position: relative;
+  width: 24%;
+  float: left;
+  input{
+    border: none;
+    background: none;
+    font-weight: bold;
+  }
+}
+.swatch{
+  width: 100%;
+  height: 120px;
+  position: relative;
+  border-radius: 3px;
+  &.orchard {
+    background: $orchard;
+    color: white;
+  }
+  &.green-orchard {
+    background: $green-orchard;
+    color: white;
+  }
+
+  &.black {
+    background: $black;
+    color: white;
+  }
+  &.dark-grey {
+    background: $dark-grey;
+    color: white;
+  }
+  &.grey {
+    background: $grey;
+    color: white;
+  }
+  &.medium-grey {
+    background: $medium-grey;
+    color: white;
+  }
+  &.light-grey {
+    background: $light-grey;
+    color: white;
+  }
+  &.warm-grey {
+    background: $light-grey;
+    color: white;
+  }
+  &.dark-danger {
+    background: $dark-danger;
+    color: white;
+  }
+  &.danger {
+    background: $danger;
+    color: white;
+  }
+  &.medium-danger {
+    background: $medium-danger;
+    color: white;
+  }
+  &.light-danger {
+    background: $light-danger;
+    color: white;
+  }
+  &.blue {
+    background: $blue;
+    color: white;
+  }
+  &.medium-blue {
+    background: $medium-blue;
+    color: white;
+  }
+  &.light-blue {
+    background: $light-blue;
+    color: white;
+  }
+  &.warning {
+    background: $warning;
+    color: white;
+  }
+  &.light-warning {
+    background: $light-warning;
+    color: white;
+  }
+}
+
+.c-info{
+  padding: 1em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.white {
+  color: white;
+  }
+a:hover.color {
+  text-decoration: none;
+  cursor: default;
+}

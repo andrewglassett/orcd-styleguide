@@ -1,0 +1,64 @@
+/***
+ * Components:
+ */
+
+/**
+ * Message / Alerts:
+ * `.alert` - Provide contextual feedback messages for typical user actions
+ * with the handful of available and flexible alert messages.
+ *
+ *     @example
+ *     .alert
+ *       p A regular ol alert message, giving you some helpful information. There is not immediate action necessary.
+ *     .alert.alert-success
+ *       p Things are going well or the user have successfully made an action.
+ *     .alert.alert-danger
+ *       p Something happened that needs your immediate attention. They need to take action, or they are unable to take action.
+ *     .alert.alert-warning
+ *       p Something is in progress or something happened that needs attention. Alert warnings also indicate a waiting period.
+ */
+
+.alert {
+  /* ... */
+}
+
+/**
+ * Pagination:
+ * `.pagination` - Simple pagination that shares styles with `.btn` classes
+ *
+ *     @example
+ *     ul.pagination
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='2')
+ *             span.page(data-page='2', aria-hidden='true')
+ *              img.album(src='img/left-arrow.svg', alt='')
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='1') 1
+ *         li
+ *           span.dots
+ *             | ...
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='7') 7
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='8') 8
+ *         li.active
+ *           a.page(href='javascript:void(0)', data-page='9') 9
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='10') 10
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='11') 11
+ *         li
+ *           span
+ *             | ...
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='77') 77
+ *         li
+ *           a.page(href='javascript:void(0)', data-page='2')
+ *             span.page(data-page='2', aria-hidden='true')
+ *              img.album(src='img/right-arrow.svg', alt='')
+
+ */
+
+.pagination {
+  /* ... */
+}

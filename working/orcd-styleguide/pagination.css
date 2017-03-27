@@ -1,0 +1,197 @@
+/**
+ * Pager:
+ * `.pager` - by default, it centers links.
+ *
+ *     @example.padded
+ *     ul.pager
+ *       li
+ *         a Previous
+ *       li
+ *         a Next
+ */
+
+.pager {
+  /* ... */
+}
+
+/**
+ * Form inline:
+ * `.form-inline` - Great for forms that only occupy one line for whatever
+ * reason.
+ *
+ *     @example
+ *     form.form-inline
+ *       .form-group
+ *         .input-group
+ *           .input-group-addon @
+ *           input.form-control(placeholder='Email')
+ *       .form-group
+ *         input.form-control(placeholder='Password' type='password')
+ *        button.btn.btn-default Sign in
+ */
+
+.form-inline {
+  /* ... */
+}
+
+/**
+ * Input groups:
+ * `.input-group` - Extend form controls by adding text or buttons before,
+ * after, or on both sides of any text-based input. Use `.input-group` with an
+ * `.input-group-addon` to prepend or append elements to a single `.form-control`.
+ *
+ *     @example.slim
+ *     .input-group
+ *       .input-group-addon @
+ *       input.form-control(placeholder='Username')
+ *     br
+ *     .input-group
+ *       input.form-control(type='text')
+ *       .input-group-addon .00
+ *     br
+ *     .input-group
+ *       .input-group-addon $
+ *       input.form-control(type='text')
+ *       .input-group-addon .00
+ */
+
+.input-group {
+  /* ... */
+}
+
+
+/**
+ * Labels:
+ * `.label` - Used for labelling things that need labels.
+ *
+ *     @example
+ *     <span class="label label-default">Default</span>
+ *     <span class="label label-primary">Primary</span>
+ *     <span class="label label-success">Success</span>
+ *     <span class="label label-info">Info</span>
+ *     <span class="label label-warning">Warning</span>
+ *     <span class="label label-danger">Danger</span>
+ */
+
+.label {
+  /* ... */
+}
+
+/**
+ * Breadcrumbs:
+ * `.breadcrumb` - Indicate the current page's location within a navigational
+ * hierarchy. Separators are automatically added in CSS through *:before* and
+ * *content*.
+ *
+ *     @example
+ *     ol.breadcrumb
+ *       li
+ *         a Home
+ *       li
+ *         a Library
+ *        li.active
+ *         | Data
+ */
+
+.breadcrumb {
+  /* ... */
+}
+
+
+
+@media print {
+    * {
+        color: #000!important;
+        text-shadow: none!important;
+        background: transparent!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important
+    }
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: ""
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+    thead {
+        display: table-header-group
+    }
+    tr,
+    img {
+        page-break-inside: avoid
+    }
+    img {
+        max-width: 100%!important
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+    select {
+        background: #fff!important
+    }
+    .navbar {
+        display: none
+    }
+    .table td,
+    .table th {
+        background-color: #fff!important
+    }
+    .btn>.caret,
+    .dropup>.btn>.caret {
+        border-top-color: #000!important
+    }
+    .label {
+        border: 1px solid #000
+    }
+    .table {
+        border-collapse: collapse!important
+    }
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #ddd!important
+    }
+}
+
+.btn-primary {
+  /* ... */
+}
+/**
+ * Primary Button Dropdown:
+ * `.btn-primary` - The primary button should generally only be used once per view.
+ *
+ *     @example
+ *     .dropdown
+ *      button#dropdownMenu1.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+ *        | Dropdown
+ *        span.caret
+ *      ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+ *        li
+ *          a(href='#') Action
+ *        li
+ *          a(href='#') Another action
+ *        li
+ *          a(href='#') Something else here
+ *        li.divider(role='separator')
+ *        li
+ *          a(href='#') Separated link
+ */

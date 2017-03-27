@@ -1,0 +1,110 @@
+/***
+ * Tables:
+ */
+
+/**
+ * Default Table:
+ * `.table` The default table style.
+ *
+ *     @example
+ *     table.table
+ *       thead
+ *         tr
+ *           th #
+ *           th First Name
+ *           th Last Name
+ *           th Username
+ *       tbody
+ *         tr
+ *           td(scope='row') 1
+ *           td(href='/', style='cursor:pointer') Mark
+ *           td Otto
+ *           td @mdo
+ *         tr
+ *           td(scope='row') 2
+ *           td Jacob
+ *           td Thornton
+ *           td @fat
+ *         tr
+ *           td(scope='row') 3
+ *           td Larry
+ *           td the Bird
+ *           td @celticsguy
+ *         tr
+ *           td(scope='row') 4
+ *           td Magic
+ *           td the Johnson
+ *           td @lakersguy
+ */
+ /**
+  * Table with row hover:
+  * `.table.table-hover` This style should be used when the table row acts like a single link.
+  *
+  *     @example
+  *     table.table.table-hover
+  *       thead
+  *         tr
+  *           th #
+  *           th First Name
+  *           th Last Name
+  *           th Username
+  *       tbody
+  *         tr
+  *           td(scope='row') 1
+  *           td Mark
+  *           td Otto
+  *           td @mdo
+  *         tr
+  *           td(scope='row') 2
+  *           td Jacob
+  *           td Thornton
+  *           td @fat
+  *         tr
+  *           td(scope='row') 3
+  *           td Larry
+  *           td the Bird
+  *           td @celticsguy
+  *         tr
+  *           td(scope='row') 4
+  *           td Magic
+  *           td the Johnson
+  *           td @lakersguy
+  */
+  /**
+  * Striped Table:
+  * `.table.table-striped` A soon to be deprecated table style that should be used for more tabular data.
+  *
+  *     @example
+  *     table.table.table-striped
+  *       thead
+  *         tr
+  *           th #
+  *           th First Name
+  *           th Last Name
+  *           th Username
+  *       tbody
+  *         tr
+  *           td(scope='row') 1
+  *           td Mark
+  *           td Otto
+  *           td @mdo
+  *         tr
+  *           td(scope='row') 2
+  *           td Jacob
+  *           td Thornton
+  *           td @fat
+  *         tr
+  *           td(scope='row') 3
+  *           td Larry
+  *           td the Bird
+  *           td @celticsguy
+  *         tr
+  *           td(scope='row') 4
+  *           td Magic
+  *           td the Johnson
+  *           td @lakersguy
+  */
+
+.tables {
+  /* ... */
+}

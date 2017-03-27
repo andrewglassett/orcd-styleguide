@@ -1,0 +1,103 @@
+/***
+ * Forms:
+ */
+
+/**
+ * Form group:
+ * `.form-group` - for grouping things.
+ * Individual form controls automatically receive some global
+ * styling. All textual `<input>`, `<textarea>`, and `<select>` elements
+ * with `.form-control` are set to `width: 100%;` by default. Wrap
+ * labels and controls in .form-group for optimum spacing.
+ *
+ *     @example.wide
+ *     .form-group
+ *       label Email address
+ *        button.tooltip-button(type='button', data-toggle='tooltip', data-placement='top', title='Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.')
+ *         img.artist(src='img/info-tooltip.svg', alt='')
+ *       input.form-control(placeholder='hi@gmail.com')
+ *     .form-group
+ *       label Required Example &#42;
+ *       input.form-control(type='password' placeholder='Password')
+ *     .form-group.has-error
+ *       label.has-error Has Error &#42;
+ *       input.form-control(placeholder='Password')
+ *     .form-group
+ *       label Long text
+ *       textarea(class='form-control')
+ */
+ /**
+  * Selects:
+  * `.form-control` - Note that many native select menus—namely in Safari and  Chrome—have rounded corners that cannot be modified via `border-radius` properties.
+  *
+  *     @example.wide
+  *     label Native Select
+  *     select.form-control.select
+  *       option 1
+  *       option 2
+  *       option 3
+  *       option 4
+  *       option 5
+  *       option 6
+  *
+
+  */
+  /**
+   * Label:
+   * `<label>` - Labels should be used for every interactive UI component
+   *
+   *     @example.wide
+   *     label Example Label Style
+   */
+  /**
+   * Radio:
+   * `.radio`
+   *
+   *     @example.wide
+   *     .radio
+   *        form-group
+   *          label
+   *            input(type='radio', name='group1', value='Milk')
+   *            | Milk
+   *          label
+   *            input(type='radio', name='group1', value='Cookies')
+   *            | Cookies
+   */
+
+   /**
+    * Checkbox:
+    * `.checkbox`
+    *
+    *     @example.wide
+    *     .checkbox
+    *       label
+    *         input(type='checkbox')
+    *         | You can click the label too
+    */
+
+
+  /**
+   * Disabled Fields:
+   * `.disabled`
+   *
+   *     @example.wide
+   *     form
+   *       fieldset(disabled='')
+   *         .form-group
+   *           label(for='disabledTextInput') Disabled input
+   *           input#disabledTextInput.form-control(type='text', placeholder='Disabled input')
+   *         .form-group
+   *           label(for='disabledSelect') Disabled select menu
+   *           select#disabledSelect.form-control
+   *             option Disabled select
+   *         .checkbox
+   *           label
+   *             input(type='checkbox')
+   *             |  Can't check this
+   *          a.btn.disabled Submit
+
+
+   */
+.form-group {
+  /* ... */
+}

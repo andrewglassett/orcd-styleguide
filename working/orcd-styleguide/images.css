@@ -1,0 +1,17 @@
+/***
+ * Images:
+ */
+
+/**
+ * Placeholder Images:
+ * Album placeholder & Artist Placeholder images that reinforce the brand and add a little playfulness to missing content.
+ *
+ *     @example
+ *     img.album(src='img/album.svg', alt='')
+ *     img.artist(src='img/film-video.svg', alt='')
+ *     img.artist(style='border-radius:50%', src='img/artist.svg', alt='')
+ */
+
+.images {
+  /* ... */
+}

@@ -1,0 +1,44 @@
+/***
+ * Modals:
+ */
+
+/**
+ * Modal:
+ * Use these only when users need to make an important decision.
+ *
+ *     @example.wide
+ *     #modalWindow.modal-dialog
+ *       .modal-content
+ *         .modal-header
+ *           button.close.btn(type='button', onclick='modal_overlay201604281443361.close()')
+ *             span(aria-hidden='true') ×
+ *           h3 Modal Example
+ *         #modalBoundingBox.modal-body
+ *           .content
+ *             h4 General Info
+ *             p This is an example modal window. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+ *             label Native Select
+ *             select.form-control.select
+ *              option 1
+ *              option 2
+ *              option 3
+ *              option 4
+ *              option 5
+ *         .modal-footer
+ *           a.btn.btn-primary(onmousedown="navigateAway('');") Do Something
+
+ */
+/**
+  * Tooltip:
+  * Used in various places across our products, tooltips should be activated in the direction that makes the most sense for the content it serves.
+  *
+  *     @example.wide
+  *     .tooltip-example
+  *      button.btn.btn-default(type='button', data-toggle='tooltip', data-placement='right', title='Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.') Right
+  *     .tooltip-example
+  *      button.btn.btn-default(type='button', data-toggle='tooltip', data-placement='top', title='Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.') Top
+  *     .tooltip-example
+  *      button.btn.btn-default(type='button', data-toggle='tooltip', data-placement='left', title='Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. ') Left
+  *     .tooltip-example
+  *      button.btn.btn-default(type='button', data-toggle='tooltip', data-placement='bottom', title='Objectively innovate empowered manufactured products whereas parallel platforms.') Bottom
+  */

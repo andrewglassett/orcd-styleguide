@@ -1,0 +1,21 @@
+/***
+ * Icons:
+ */
+
+/**
+ * UI Icons:
+ * Reusable icons that are part of the chrome.
+ *
+ *     @example
+ *     img.album(src='img/left-arrow.svg', alt='')
+ *     img.album(src='img/left-arrow.svg', alt='')
+ *     img.artist(src='img/right-arrow.svg', alt='')
+ *     button.tooltip-button(type='button', data-toggle='tooltip', data-placement='top', title='Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.')
+ *      img.artist(src='img/info-tooltip.svg', alt='')
+ *     br
+ *     a(href='https://drive.google.com/drive/u/0/folders/0B-Z6X8D72ulMUlZPTTBfMHFUaGM' target='_blank') Download Icons
+ */
+
+.images {
+  /* ... */
+}

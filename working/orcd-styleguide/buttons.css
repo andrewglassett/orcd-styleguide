@@ -1,0 +1,124 @@
+/***
+ * Buttons:
+ */
+
+/**
+ * Default Button:
+ * Every button begins their life looking like this one.
+ *
+ *     @example
+ *     button.btn.btn-default Default Button
+ *     button.btn.btn-default.btn-sm Small Button
+ */
+
+.btn {
+  /* ... */
+}
+
+/**
+ * Primary Button:
+ * The primary button should generally only be used once per view.
+ *
+ *     @example
+ *     button.btn.btn-primary Primary
+ *     button.btn.btn-sm.btn-primary Primary
+ */
+
+.btn-primary {
+  /* ... */
+}
+/**
+ * Primary Button Dropdown:
+ * The primary button should generally only be used once per view.
+ *
+ *     @example
+ *     .dropdown
+ *       button.newReleaseButtons.btn.btn-primary.dropdown-toggle.newReleaseButtons(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true')
+ *         | Create
+ *         img(src='http://workstation.qaorch.com/images/redesign/downarrow-sm.svg')
+ *       ul.dropdown-menu.create-release(role='menu', aria-labelledby='newReleaseButtons')
+ *         li
+ *           a#newAudioRelease(onclick='modalWindow0()', href='javascript:void(0);') Audio Product
+ *         li
+ *           a(onclick="modalWindow0({'product_type' : 'music_video'})", href='javascript:void(0);') Music Video
+ */
+
+.btn-dropdown {
+  /* ... */
+}
+
+
+/**
+ * Danger Button:
+ * The danger button is similar to the default except for a different text and hover color.
+ *
+ *     @example
+ *     button.btn.btn-danger Danger
+ *     button.btn.btn-sm.btn-danger Danger
+ */
+
+.btn-danger {
+  /* ... */
+}
+
+/**
+ * Disabled Button:
+ * The disabled button has the lowest visual contrast of the rest of the buttons and no interactive element.
+ *
+ *     @example
+ *     button.btn.btn-default.disabled Disabled
+ *     button.btn.btn-default.btn-sm.disabled Disabled
+ */
+
+.btn-disabled {
+  /* ... */
+}
+
+/**
+ * Button group:
+ * A bunch of buttons joined together.
+ *
+ *     @example
+ *     .btn-group
+ *       button.btn.btn-default Studio
+ *       button.btn.btn-default Volume
+ *       button.btn.btn-default Release
+ *       button.btn.btn-default Source
+ *       button.btn.btn-default Channel
+ *       button.btn.btn-default Country
+ *     br
+ *     .btn-group
+ *       button.btn.btn-default.btn-sm Studio
+ *       button.btn.btn-default.btn-sm Volume
+ *       button.btn.btn-default.btn-sm Release
+ *       button.btn.btn-default.btn-sm Source
+ *       button.btn.btn-default.btn-sm Channel
+ *       button.btn.btn-default.btn-sm Country
+ */
+
+.btn-group {
+  /* ... */
+}
+
+/**
+ * Button Link:
+ * Button link style differs than a regular text link and should be used when triggering an action. Regular text links should be used for simple navigation.
+ *
+ *     @example
+ *     button.btn.btn-link Button Link
+ */
+
+.btn-link {
+  /* ... */
+}
+
+/**
+ * Disabled Button Link:
+ *
+ *     @example
+ *     button.btn.btn-link.disabled Button Link
+ */
+
+.btn-link {
+  /* ... */
+}

@@ -1,0 +1,29 @@
+/**
+ * # Styleguide options
+ *
+ * ### Head
+ *
+ *     title Orchard Style Guide
+ *     meta(name="viewport" content="width=device-width, initial-scale=1")
+ *     link(rel='stylesheet' href='https://cdn.theorchard.io/shared/css/vendor-redesign.css')
+ *     link(rel='stylesheet' href='https://cdn.theorchard.io/shared/css/global-redesign.css')
+ *     link(rel='stylesheet' href='app.css')
+ *     link(rel='stylesheet' href='fonts/font-awesome.min.css')
+ *     script(src='styledown.js')
+ *     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+ *     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+ *     script(src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js')
+ *     script(src='app.js')
+ *     script(src='extras.js')
+ *
+ *
+ * ### Body
+ *
+ *     .jumbotron
+ *       .container
+ *         img(src='img/logo.svg')
+ *         h1 Workstation Styleguide
+ *     .container
+ *       div(sg-content)
+ */
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);*/

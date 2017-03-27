@@ -1,0 +1,145 @@
+/***
+ * Colors:
+ */
+
+/**
+ * Brand Colors:
+ * Use these colors sparingly as they have the highest visual contrast to the rest of the application.
+ *
+ *     @example
+ *     .color
+ *      .swatch.orchard
+ *      .c-info.white
+ *        p $orchard
+ *        input#brand-primary(type='text', value='#FAAC35')
+ *        .button-view
+ *          sg.button(data-copytarget='#brand-primary') copy hex
+ *     .color
+ *      .swatch.green-orchard
+ *      .c-info.white
+ *        p $green-orchard
+ *        input#green-orchard(type='text', value='#78A22F')
+ *        .button-view
+ *          sg.button(data-copytarget='#green-orchard') copy hex
+ */
+
+/**
+ * Grey Colors:
+ * $dark-grey is the main dark color for the app, $black should only be used for hover states or to add emphasis
+ *
+ *     @example
+ *     .color
+ *      .swatch.black
+ *      .c-info.white
+ *        p $black
+ *        input#black(type='text', value='#282828')
+ *        .button-view
+ *          sg.button(data-copytarget='#black') copy hex
+ *     .color
+ *      .swatch.dark-grey
+ *      .c-info.white
+ *        p $dark-grey
+ *        input#dark-grey(type='text', value='#4A4A4A')
+ *        .button-view
+ *          sg.button(data-copytarget='#dark-grey') copy hex
+ *     .color
+ *      .swatch.grey
+ *      .c-info.white
+ *        p $grey
+ *        input#grey(type='text', value='#A2A2A2')
+ *        .button-view
+ *          sg.button(data-copytarget='#grey') copy hex
+ *     .color
+ *      .swatch.medium-grey
+ *      .c-info
+ *        p $medium-grey
+ *        input#medium-grey(type='text', value='#E4E4E4')
+ *        .button-view
+ *          sg.button(data-copytarget='#medium-grey') copy hex
+ *     .color
+ *      .swatch.light-grey
+ *      .c-info
+ *        p $light-grey
+ *        input#light-grey(type='text', value='#F9F9F9')
+ *        .button-view
+ *          sg.button(data-copytarget='#light-grey') copy hex
+ *     .color
+ *      .swatch.warm-grey
+ *      .c-info
+ *        p $warm-grey
+ *        input#warm-grey(type='text', value='#D9D2D0')
+ *        .button-view
+ *          sg.button(data-copytarget='#warm-grey') copy hex
+ */
+
+/**
+  * UI Colors:
+  * Colors used for messaging, error states and tags.
+  *
+  *     @example
+  *     .color
+  *      .swatch.dark-danger
+  *      .c-info.white
+  *        p $dark-danger
+  *        input#dark-danger(type='text', value='#D46258')
+  *        .button-view
+  *          sg.button(data-copytarget='#dark-danger') copy hex
+  *     .color
+  *      .swatch.danger
+  *      .c-info.white
+  *        p $danger
+  *        input#danger(type='text', value='#D46258')
+  *        .button-view
+  *          sg.button(data-copytarget='#danger') copy hex
+  *     .color
+  *      .swatch.medium-danger
+  *      .c-info
+  *        p $medium-danger
+  *        input#medium-danger(type='text', value='#F7CCD1')
+  *        .button-view
+  *          sg.button(data-copytarget='#medium-danger') copy hex
+  *     .color
+  *      .swatch.light-danger
+  *      .c-info
+  *        p $light-danger
+  *        input#light-danger(type='text', value='#FDF1F0')
+  *        .button-view
+  *          sg.button(data-copytarget='#light-danger') copy hex
+  *     .break
+  *     .color
+  *      .swatch.blue
+  *      .c-info.white
+  *        p $blue
+  *        input#blue(type='text', value='#039FF9')
+  *        .button-view
+  *          sg.button(data-copytarget='#blue') copy hex
+  *     .color
+  *      .swatch.medium-blue
+  *      .c-info.white
+  *        p $medium-blue
+  *        input#medium-blue(type='text', value='#039FF9')
+  *        .button-view
+  *          sg.button(data-copytarget='#medium-blue') copy hex
+  *     .color
+  *      .swatch.light-blue
+  *      .c-info
+  *        p $light-blue
+  *        input#light-blue(type='text', value='#F1F5F9')
+  *        .button-view
+  *          sg.button(data-copytarget='#light-blue') copy hex
+  *     .break
+  *     .color
+  *      .swatch.warning
+  *      .c-info.white
+  *        p $warning
+  *        input#warning(type='text', value='#C0710B')
+  *        .button-view
+  *          sg.button(data-copytarget='#warning') copy hex
+  *     .color
+  *      .swatch.light-warning
+  *      .c-info
+  *        p $light-warning
+  *        input#light-warning(type='text', value='#FFF7ED')
+  *        .button-view
+  *          sg.button(data-copytarget='#light-warning') copy hex
+  */
