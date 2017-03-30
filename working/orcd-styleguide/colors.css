@@ -8,68 +8,61 @@
  *
  *     @example
  *     .color
- *      .swatch.orchard
+ *      .swatch.fox
  *      .c-info.white
- *        p $orchard
- *        input#brand-primary(type='text', value='#FAAC35')
+ *        p $fox
+ *        input#brand-primary(type='text', value='#FF893E')
  *        .button-view
  *          sg.button(data-copytarget='#brand-primary') copy hex
  *     .color
- *      .swatch.green-orchard
+ *      .swatch.humpback
  *      .c-info.white
- *        p $green-orchard
- *        input#green-orchard(type='text', value='#78A22F')
+ *        p $humpback
+ *        input#humpback(type='text', value='#093C59')
  *        .button-view
- *          sg.button(data-copytarget='#green-orchard') copy hex
+ *          sg.button(data-copytarget='#humpback') copy hex
  */
 
 /**
  * Grey Colors:
- * $dark-grey is the main dark color for the app, $black should only be used for hover states or to add emphasis
+ * $gorilla is the main dark color for the app
  *
  *     @example
  *     .color
- *      .swatch.black
+ *      .swatch.gorilla
  *      .c-info.white
- *        p $black
- *        input#black(type='text', value='#282828')
+ *        p $gorilla
+ *        input#gorilla(type='text', value='#4A4A4A')
  *        .button-view
- *          sg.button(data-copytarget='#black') copy hex
+ *          sg.button(data-copytarget='#gorilla') copy hex
  *     .color
- *      .swatch.dark-grey
+ *      .swatch.rhino
  *      .c-info.white
- *        p $dark-grey
- *        input#dark-grey(type='text', value='#4A4A4A')
+ *        p $rhino
+ *        input#rhino(type='text', value='#6D6565')
  *        .button-view
- *          sg.button(data-copytarget='#dark-grey') copy hex
+ *          sg.button(data-copytarget='#rhino') copy hex
  *     .color
- *      .swatch.grey
- *      .c-info.white
- *        p $grey
- *        input#grey(type='text', value='#A2A2A2')
- *        .button-view
- *          sg.button(data-copytarget='#grey') copy hex
- *     .color
- *      .swatch.medium-grey
+ *      .swatch.timberwolf
  *      .c-info
- *        p $medium-grey
- *        input#medium-grey(type='text', value='#E4E4E4')
+ *        p $timberwolf
+ *        input#timberwolf(type='text', value='#A8A0A0')
  *        .button-view
- *          sg.button(data-copytarget='#medium-grey') copy hex
+ *          sg.button(data-copytarget='#timberwolf') copy hex
  *     .color
- *      .swatch.light-grey
+ *      .swatch.koala
  *      .c-info
- *        p $light-grey
- *        input#light-grey(type='text', value='#F9F9F9')
+ *        p $koala
+ *        input#koala(type='text', value='#D9D2D0')
  *        .button-view
- *          sg.button(data-copytarget='#light-grey') copy hex
+ *          sg.button(data-copytarget='#koala') copy hex
  *     .color
- *      .swatch.warm-grey
+ *      .swatch.mouse
  *      .c-info
- *        p $warm-grey
- *        input#warm-grey(type='text', value='#D9D2D0')
+ *        p $mouse
+ *        input#mouse(type='text', value='#F2F2F2')
  *        .button-view
- *          sg.button(data-copytarget='#warm-grey') copy hex
+ *          sg.button(data-copytarget='#mouse') copy hex
  */
 
 /**
@@ -78,68 +71,59 @@
   *
   *     @example
   *     .color
-  *      .swatch.dark-danger
+  *      .swatch.fox
   *      .c-info.white
-  *        p $dark-danger
-  *        input#dark-danger(type='text', value='#D46258')
+  *        p $fox
+  *        input#fox(type='text', value='#FF893E')
   *        .button-view
-  *          sg.button(data-copytarget='#dark-danger') copy hex
+  *          sg.button(data-copytarget='#fox') copy hex
   *     .color
-  *      .swatch.danger
+  *      .swatch.turtle
   *      .c-info.white
-  *        p $danger
-  *        input#danger(type='text', value='#D46258')
+  *        p $turtle
+  *        input#turtle(type='text', value='#78A22F')
   *        .button-view
-  *          sg.button(data-copytarget='#danger') copy hex
+  *          sg.button(data-copytarget='#turtle') copy hex
   *     .color
-  *      .swatch.medium-danger
-  *      .c-info
-  *        p $medium-danger
-  *        input#medium-danger(type='text', value='#F7CCD1')
+  *      .swatch.parrot
+  *      .c-info.white
+  *        p $parrot
+  *        input#parrot(type='text', value='#D54236')
   *        .button-view
-  *          sg.button(data-copytarget='#medium-danger') copy hex
+  *          sg.button(data-copytarget='#parrot') copy hex
   *     .color
-  *      .swatch.light-danger
-  *      .c-info
-  *        p $light-danger
-  *        input#light-danger(type='text', value='#FDF1F0')
+  *      .swatch.bluejay
+  *      .c-info.white
+  *        p $bluejay
+  *        input#bluejay(type='text', value='#026EAD')
   *        .button-view
-  *          sg.button(data-copytarget='#light-danger') copy hex
+  *          sg.button(data-copytarget='#bluejay') copy hex
   *     .break
   *     .color
-  *      .swatch.blue
-  *      .c-info.white
-  *        p $blue
-  *        input#blue(type='text', value='#039FF9')
-  *        .button-view
-  *          sg.button(data-copytarget='#blue') copy hex
-  *     .color
-  *      .swatch.medium-blue
-  *      .c-info.white
-  *        p $medium-blue
-  *        input#medium-blue(type='text', value='#039FF9')
-  *        .button-view
-  *          sg.button(data-copytarget='#medium-blue') copy hex
-  *     .color
-  *      .swatch.light-blue
+  *      .swatch.fox-light
   *      .c-info
-  *        p $light-blue
-  *        input#light-blue(type='text', value='#F1F5F9')
+  *        p $fox-light
+  *        input#fox-light(type='text', value='#FFF3EB')
   *        .button-view
-  *          sg.button(data-copytarget='#light-blue') copy hex
-  *     .break
+  *          sg.button(data-copytarget='#fox-light') copy hex
   *     .color
-  *      .swatch.warning
-  *      .c-info.white
-  *        p $warning
-  *        input#warning(type='text', value='#C0710B')
-  *        .button-view
-  *          sg.button(data-copytarget='#warning') copy hex
-  *     .color
-  *      .swatch.light-warning
+  *      .swatch.turtle-light
   *      .c-info
-  *        p $light-warning
-  *        input#light-warning(type='text', value='#FFF7ED')
+  *        p $turtle-light
+  *        input#turtle-light(type='text', value='#F1F5EA')
   *        .button-view
-  *          sg.button(data-copytarget='#light-warning') copy hex
-  */
+  *          sg.button(data-copytarget='#turtle-light') copy hex
+  *     .color
+  *      .swatch.parrot-light
+  *      .c-info
+  *        p $parrot-light
+  *        input#parrot-light(type='text', value='#FAECEA')
+  *        .button-view
+  *          sg.button(data-copytarget='#parrot-light') copy hex
+  *     .color
+  *      .swatch.bluejay-light
+  *      .c-info
+  *        p $bluejay-light
+  *        input#bluejay-light(type='text', value='#E5F0F6')
+  *        .button-view
+  *          sg.button(data-copytarget='#bluejay-light') copy hex

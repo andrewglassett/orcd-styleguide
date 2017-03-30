@@ -16,39 +16,79 @@
   height: 120px;
   position: relative;
   border-radius: 3px;
-  &.orchard {
-    background: $orchard;
+  &.fox {
+    background: $fox;
     color: white;
   }
-  &.green-orchard {
-    background: $green-orchard;
+  &.humpback {
+    background: $humpback;
+    color: white;
+  }
+  &.gorilla {
+    background: $gorilla;
+    color: white;
+  }
+  &.rhino {
+    background: $rhino;
+    color: white;
+  }
+  &.timberwolf {
+    background: $timberwolf;
+    color: white;
+  }
+  &.koala {
+    background: $koala;
+    color: white;
+  }
+  &.mouse {
+    background: $mouse;
+    color: white;
+  }
+  &.white {
+    background: $white;
+  }
+
+
+  &.turtle {
+    background: $turtle;
+    color: white;
+  }
+  &.parrot {
+    background: $parrot;
+    color: white;
+  }
+  &.bluejay {
+    background: $bluejay;
+    color: white;
+  }
+  &.fox-light {
+    background: $fox-light;
+  }
+  &.turtle-light {
+    background: $turtle-light;
+  }
+  &.parrot-light {
+    background: $parrot-light;
+  }
+  &.bluejay-light {
+    background: $bluejay-light;
+  }
+
+  &.peacock {
+    background: $peacock;
+    color: white;
+  }
+  &.octopus {
+    background: $octopus;
+    color: white;
+  }
+  &.chameleon {
+    background: $chameleon;
     color: white;
   }
 
-  &.black {
-    background: $black;
-    color: white;
-  }
-  &.dark-grey {
-    background: $dark-grey;
-    color: white;
-  }
-  &.grey {
-    background: $grey;
-    color: white;
-  }
-  &.medium-grey {
-    background: $medium-grey;
-    color: white;
-  }
-  &.light-grey {
-    background: $light-grey;
-    color: white;
-  }
-  &.warm-grey {
-    background: $light-grey;
-    color: white;
-  }
+
+
   &.dark-danger {
     background: $dark-danger;
     color: white;
